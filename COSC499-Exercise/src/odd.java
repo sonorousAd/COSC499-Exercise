@@ -11,6 +11,5 @@ public class odd {
 			}
 		}
 		return narr;
-	//System.out.println("The odd numbers entered are" + Arrays.toString(narr.toArray()));
 	}
 }

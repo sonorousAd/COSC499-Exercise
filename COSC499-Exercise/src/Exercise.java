@@ -26,6 +26,7 @@ public class Exercise {
 		if (str.equals("e")) {
 
 			System.out.println(ev.meven(arr));
+		}
 
 		if (str.equals("o")) {
 			System.out.println(od.modd(arr));
@@ -34,4 +35,3 @@ public class Exercise {
 			}
 		}
 	}
-}
