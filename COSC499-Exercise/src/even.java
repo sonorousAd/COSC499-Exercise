@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class even {
-	public void meven(int[] arr) {
+	public ArrayList<Integer> meven(int[] arr) {
 		ArrayList<Integer> narr = new ArrayList<>();
 		System.out.println("even");
 		for (int j = 0; j < arr.length; j++) {
@@ -10,6 +10,7 @@ public class even {
 				narr.add(arr[j]);
 			}
 		}
-	System.out.println("The even numbers entered are" + Arrays.toString(narr.toArray()));
+		return narr;
+	//System.out.println("The even numbers entered are" + Arrays.toString(narr.toArray()));
 	}
 }
