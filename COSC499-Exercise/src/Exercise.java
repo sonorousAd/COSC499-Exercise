@@ -31,7 +31,7 @@ public class Exercise {
 		if (str.equals("o")) {
 			System.out.println(od.modd(arr));
 
-
+//Example
 			}
 		}
 	}
