@@ -6,9 +6,9 @@ import java.util.Scanner;
 
 public class Exercise {
 	public static void main(String[] args) {
-		// Sort the odd and even number of a given string of numbers
+		// Sort the odd and even number of a given string of numbers s
 		even ev = new even();
-		odd od = new odd();
+		//odd od = new odd();
 		System.out.println("Enter 5 numbers in any order by presing enter");
 		int arr[] = new int[5];
 		Scanner scan = new Scanner(System.in);
@@ -24,7 +24,8 @@ public class Exercise {
 		
 		
 		if (str.equals("e")) {
-			ev.meven(arr);
+			
+			System.out.println(ev.meven(arr));
 //			System.out.println("even");
 //			for (int j = 0; j < arr.length; j++) {
 //				if ((arr[j] % 2) == 0) {
@@ -33,8 +34,8 @@ public class Exercise {
 //			}
 //		System.out.println("The even numbers entered are" + Arrays.toString(narr.toArray()));
 		}
-		if (str.equals("o")) {
-			od.modd(arr);
+//		if (str.equals("o")) {
+//			od.modd(arr);
 			
 //			System.out.println("odd");
 //			for (int j = 0; j < arr.length; j++) {
@@ -43,6 +44,6 @@ public class Exercise {
 //				}
 //			}
 //			System.out.println("the odd numbers are" + Arrays.toString(narr.toArray()));
-		}
+		//}
 	}
 }
